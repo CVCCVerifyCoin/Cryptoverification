@@ -1,0 +1,26 @@
+[Unit]
+Description=CryptoVerification's distributed currency daemon
+After=network.target
+
+[Service]
+User=cryptoverification
+Group=cryptoverification
+
+Type=forking
+PIDFile=/var/lib/cryptoverificationd/cryptoverificationd.pid
+
+ExecStart=/usr/bin/cryptoverificationd -daemon -pid=/var/lib/cryptoverificationd/cryptoverificationd.pid \
+          -conf=/etc/cryptoverification/cryptoverification.conf -datadir=/var/lib/cryptoverificationd
+
+ExecStop=-/usr/bin/cryptoverification-cli -conf=/etc/cryptoverification/cryptoverification.conf \
+         -datadir=/var/lib/cryptoverificationd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

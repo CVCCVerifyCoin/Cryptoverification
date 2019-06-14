@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CryptoVerification
+Comment=CryptoVerification P2P Cryptocurrency
+Comment[fr]=CryptoVerification, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CryptoVerification, eşten eşe kriptografik sanal para birimi
+Exec=cryptoverification-qt %u
+Terminal=false
+Type=Application
+Icon=cryptoverification128
+MimeType=x-scheme-handler/cryptoverification;
+Categories=Office;Finance;
