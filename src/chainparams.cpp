@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2019 The CryptoVerification developersik
+// Copyright (c) 2019 The CryptoVerification developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -59,12 +59,21 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(221, uint256("0x000005157d40f4d0ac3b5b310b1bb7b10263c15e1354fbb755b44a0b2b656e60"))
 	(872, uint256("0xded6edae10a4f4563c1d1ddac00eddf781dc8b959029ce72683f6e59c6d482cf"))
 	(1505, uint256("0x9c9cc465ad877097be91d62212f6fbdce716fb9e1f4310b8e87a0741ab6df8c4"))
-	(1987, uint256("0x400472d0f592b7c147e70cda56680424e58081d15d31f7a7814ba6a6e5d272c0"))	
+	(1987, uint256("0x400472d0f592b7c147e70cda56680424e58081d15d31f7a7814ba6a6e5d272c0"))
+	(2841, uint256("0x3977e7002e3e73f49dbaf78e76c4206bfb2ed08f89685f7cc734431c24241f24"))
+	(11702, uint256("0xb9b5807c5941b7bafbdc7165a7ab5d311052fb55aa4f0d3e2f7b74262ffb2b72"))
+	(26898, uint256("0x3ccd30bf84fc830ff1350f5b6554f43ff28cf6771d6667c93a3ce89eb7d51213"))
+	(37154, uint256("0x657839594c0f35ae3819b1a5dc87a997f56ac4f6fbeef1c47566db57c956587f"))
+	(49214, uint256("0xac4a8d06c4d74dd946d056d2efac63c7b2d00c1bbcdcdac3324de6f036303b88"))
+	(54729, uint256("0xde2aecc884c51ab963b20660ad9124133e680b8a00c1e12bcd2ff0a2999dce05"))
+	(61026, uint256("0x849786f19903c6b6a4f44e1785c9cc5ea4a0f16c69707603b113883bc8909585"))
+	(78721, uint256("0x261628910ca70ed78464133b22f3eedf291eb1c301c2518fc246779cc3c3ca31"))
+	(80011, uint256("0x2f6055c4613152faa253c5c520c9fcbee3b6c8462b2332a635af6af2bf8b5c02"))
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-	1560334405, // * UNIX timestamp of last checkpoint block
-    3977,		// * total number of transactions between genesis and last checkpoint
+	1565235846, // * UNIX timestamp of last checkpoint block
+    160861,		// * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
