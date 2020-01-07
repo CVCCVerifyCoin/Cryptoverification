@@ -69,11 +69,28 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(61026, uint256("0x849786f19903c6b6a4f44e1785c9cc5ea4a0f16c69707603b113883bc8909585"))
 	(78721, uint256("0x261628910ca70ed78464133b22f3eedf291eb1c301c2518fc246779cc3c3ca31"))
 	(80011, uint256("0x2f6055c4613152faa253c5c520c9fcbee3b6c8462b2332a635af6af2bf8b5c02"))
+	(87469, uint256("0x4d999dbbdfe6bdb5867e91ca68052f8ddfa3c576ea7dd7c1c10eaa2663373c99"))
+	(94801, uint256("0x9ec1a7f42d2f214e7bfe5206b51ec297a99c085e384e9a5c3b2501d32db51532"))
+	(105894, uint256("0x92bba2250cd6ef00e9d9ee129b70eb1fac1b8601099da75d54db409c4b998185"))
+	(118728, uint256("0x6cd037aeaa04dd3cdae6309a47acfc7df2f9bc5c958096594fe4454dbadf480c"))
+	(131109, uint256("0x19ba059c18fe42423f05c392bc743d1e703de8e1ba490628970c3e280ecf8160"))
+	(136584, uint256("0x64173e8cab01151e3920c4e23b646716c2c1a32eb756f333e5e3f6aa65c16865"))
+	(141159, uint256("0x28ee45a02eba21982cacd7522c729e25c94cda58c6de1d71c09fa847c22d4468"))
+	(151011, uint256("0x5cd691ce4bd6e7bbb7312ee2a25beb3c1cf233e103d7d260fc289228bb30fd00"))
+	(178159, uint256("0x4337f4c88cd4d6d31bf8f7b6dc8f682e4da98af7d1d542d5199d20eee10d9e06"))
+	(211576, uint256("0x0d6c548aaba15aeca45a692970eb7fc7c114af784e008d565d9e5efab1ed7641"))
+	(238103, uint256("0x9aed3cd615ff13d809baaaf6718f307f8a52fdc20699d7651155f4982703aa8b"))
+	(271829, uint256("0x359045af877bd8e56d36cac6f75bf6aa0d97e0e15f1a4e0815ef5c7426ca2e3c"))
+	(291156, uint256("0xaba104ab6794e9e0637d8f22152322c46400165c678dee688c1e0f29f4ae8922"))
+	(291157, uint256("0x626f59f22987c6e0779cc560d601a729e72ee032a5f28660dd96ebe312b44882"))
+	(291158, uint256("0x1d8249668f81559de4b07a23217ed1bfd21bfab3c4218ef58706e28326a2d463"))
+	(293894, uint256("0xcfebfb7cf45bb468afe311c816309b2250e072ab3ee2cd50a6af2a774dcf0816"))
+
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-	1565235846, // * UNIX timestamp of last checkpoint block
-    160861,		// * total number of transactions between genesis and last checkpoint
+	1578377974, // * UNIX timestamp of last checkpoint block
+    589910,		// * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
